@@ -1,0 +1,64 @@
+@media (max-width:873px) {
+    .header {
+        font-size: 12rem;
+    }
+
+    .section {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 2.0vh;
+    }
+
+    .nav {
+        width: 80vw;
+    }
+
+    .div-info {
+        font-size: 15rem;
+        padding: 2%;
+        width: 70vw;
+        height: 12.5vh;
+    }
+
+    .div-player {
+        font-size: 12rem;
+        width: 80vw;
+        height: 12vh
+    }
+
+    .foto {
+        margin: 1.3%;
+        margin-right: 3%;
+        width: 13.86vw;
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .foto:hover {
+        border: solid 5px rgb(255, 0, 0);
+
+    }
+
+    .div-player strong {
+        font-size: 22rem;
+    }
+
+    .civ-sorteada {
+        width: 15.93vw;
+        max-width: 96px;
+        height: 8.9vh;
+        max-height: 96px;
+    }
+
+    .grid {
+        display: none;
+    }
+
+    .add-player {
+        order: 1;
+
+        width: 65px;
+        height: 65px;
+    }
+}

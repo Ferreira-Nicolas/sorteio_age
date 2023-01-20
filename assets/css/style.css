@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+html {
+    font-size: 6.25%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-size: cover;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    color: rgb(255, 251, 0);
+    background-color: rgba(0, 0, 0, 0.938);
+    font-size: 14rem;
+    align-items: center;
+    border-bottom: solid 1px rgb(139, 112, 21);
+    justify-content: center;
+    font-family: 'Bungee Shade', cursive;
+
+}
+
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.63);
+    font-size: 32rem;
+    padding: auto;
+    padding-top: 1.0vh;
+    flex-wrap: wrap;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    align-items: center;
+    width: fit-content;
+
+}
+
+
+
+.div-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20rem;
+    margin: auto;
+    padding: 12% 2% ;
+    margin-bottom: 0.5%;
+    margin-top: 1%;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: solid 1px rgb(148, 148, 20);
+    width: 31.5vw;
+    max-width: 500px;
+    height: 14.5vh;
+    max-height: 125px;
+}
+
+.div-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25rem;
+    padding: 5%;
+    margin: 1.3%;
+    background-color: rgba(0, 0, 0, 0.822);
+    border: solid 1px rgb(148, 148, 20);
+    width: 31.5vw;
+    max-width: 500px;
+    height: 14.5vh;
+    max-height: 125px;
+}
+
+.foto {
+    border: solid 1px rgb(148, 107, 20);
+    border-radius:4%;
+    margin:1.3%;
+    margin-right: 3%;
+    width: 5.86vw;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.foto:hover {
+    border: solid 5px rgb(255, 0, 0);
+
+}
+
+.div-player strong {
+    margin:0 auto auto 0  ;
+    font-size: 4.5vh;
+}
+
+.add-player {
+    order: 1;
+    height: 10.11vh;
+    max-height: 65px;
+    width: 5.12vw;
+    min-width:65px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 10.5%);
+    width: max-content;
+    max-width: 1500px;
+    height: 55vh;
+    border: solid 1px rgb(148, 148, 20);
+    padding: 1%;
+    margin:0.32% 0 0 1.1%;
+    gap: 0.65%;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.civs {
+    width: 5.93vw;
+    /* max-width: 5.93vw; */
+    height: 11.9vh;
+    /* max-height: 11.9vh; */
+    
+}
+
+.civs-sorteada {
+    width: 5.93vw;
+    /* max-width: 5.93vw; */
+    height: 11.9vh;
+    /* max-height: 11.9vh; */
+    
+}

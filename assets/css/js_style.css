@@ -1,0 +1,77 @@
+/* ====== JS ====== */
+.div-blur {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(1.5px);
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.pop-up {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 160rem;
+    border: solid rgb(148, 148, 20) 1rem;
+    width: 500rem;
+    height: 270rem;
+    z-index:2;
+}
+
+h2{
+    margin-bottom:40rem;
+    font-weight: 100    ;
+    text-align: center;
+    color: rgb(224, 224, 28);
+    font-size: 28rem;
+    width: 500rem;
+    font-family: 'Bungee Shade', cursive;
+    border-bottom: solid 1rem;
+
+}
+
+.pop-up label {
+    font-size: 18rem;
+    margin-right:170rem;
+    color: rgb(224, 224, 28);
+    
+}
+
+.nome-jogador {
+    margin-bottom: 40rem;
+    border: none;
+    border-bottom: solid 0.5rem rgb(148, 148, 20);
+    background-color: black;
+    outline: none;
+    color: rgb(253, 237, 183);
+    font-size: 20rem;
+}
+
+.nome-jogador:focus {
+    border-bottom: solid 1.5rem rgb(207, 207, 20);
+}
+
+.btn-criar{
+    padding: 2rem 20rem;
+    font-size: 18rem;
+    border: solid 2rem rgb(148, 148, 20);
+    background-color: rgb(141, 14, 14);
+    margin-bottom: 5rem;
+    color: rgb(250, 214, 95);
+}
+.btn-fechar{    
+    
+    padding: 2rem 5rem;
+    font-size: 10rem;
+    border: solid 1rem rgb(148, 148, 20);
+    background-color: rgb(141, 14, 14);
+    margin-bottom: 20rem;
+    color: rgb(250, 214, 95);
+}
