@@ -49,9 +49,9 @@ body {
     margin-top: 0.7vh;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: fit-content;
     align-items: center;
-    width: 20vw;
+    width: fit-content
 }
 
 
