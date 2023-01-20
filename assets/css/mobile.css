@@ -57,8 +57,45 @@
 
     .add-player {
         order: 1;
-
         width: 65px;
         height: 65px;
     }
+
+    /* js */
+
+    .pop-up {
+        display: none;
+        top: 160;
+        border: solid rgb(148, 148, 20) 1px;
+        width: 95vw;
+        height: 35vh;
+        
+    }
+
+    h2 {
+        margin-bottom: 5vh;
+        width: 95vw
+    }
+
+    .nome-jogador {
+        margin-bottom: 5vh;
+        border-bottom: solid 0.5px rgb(148, 148, 20);
+    }
+
+    .nome-jogador:focus {
+        border-bottom: solid 1.5px rgb(207, 207, 20);
+    }
+
+    .btn-criar {
+        padding: 0.1vh 5vw;
+        margin-bottom: 1vh;
+
+    }
+
+    .btn-fechar {
+        padding: 0.2vh 1.5vw;
+        border: solid 1px rgb(148, 148, 20);
+        margin-bottom: 0;
+    }
+
 }
