@@ -18,7 +18,8 @@
     align-items: center;
     background-color: black;
     position: fixed;
-    top: 160rem;
+    top: auto;
+    bottom: auto;
     border: solid rgb(148, 148, 20) 1rem;
     width: 500rem;
     height: 270rem;
